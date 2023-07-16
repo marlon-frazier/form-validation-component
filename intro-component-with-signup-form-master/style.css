@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 1.6em;
+    background-image: url('./images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+    font: inherit;
+}
+
+.container{
+    display: flex;
+    padding: 2.5em;
+    align-items: center;
+    max-width: 110em;
+}
+
+.hero{
+    color: white;
+    width: 50%;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: .5em;
+}
+
+b{
+    font-weight: 600;
+}
+
+.offer{
+    width: 100%;
+    color: white;
+    margin-bottom: 1em;
+    background-color: hsl(248, 32%, 49%);
+    padding: 1em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.form{
+    background-color: white;
+    padding: 2em;
+    border-radius: .5em;
+}
+
+.user-input{
+    width: 50%;
+}
+input{
+    width: 100%;
+    padding: 1em;
+    border-radius: .5em;
+}
+.disclaimer{
+    font-size: .8em;
+    text-align: center;
+}
+
+span{
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+}
+
+.free-trial{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.field{
+    position: relative;
+    margin-bottom: 1.5em;
+}
+
+.error-img{
+    position: absolute;
+    bottom: 50%;
+    left: 90%;
+}
+
+.error-msg{
+    color: hsl(0, 100%, 74%);
+    text-align: right;
+    font-size: .9em;
+}
+.hidden{
+    visibility: hidden;
+}
